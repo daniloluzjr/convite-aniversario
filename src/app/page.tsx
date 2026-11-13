@@ -50,7 +50,7 @@ function InvitationContent() {
         <SocialSection />
         <CollaborativeAlbum />
         <SongRequest />
-        <RsvpSection guestName={guestName} maxPasses={passesCount} />
+        <RsvpSection initialGuestName={guestName} defaultPasses={passesCount} />
         <Footer />
       </main>
 
